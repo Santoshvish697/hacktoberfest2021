@@ -1,0 +1,45 @@
+nav  {
+    margin-bottom: 1rem;
+  }
+  nav li {
+    justify-content: space-around;
+    display: flex;
+    padding: 1.5rem;
+  }
+  nav li a {
+    padding: 0.5rem;
+    
+  }
+  
+  .main-page .space {
+    padding: 3rem;
+  }
+  
+  .nav-item a:hover {
+    background-color: #EFFF33;
+  }
+  
+  
+  
+  #red li a:hover{
+    color: red;
+  }
+  
+  #logo {
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  
+  #site-header{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    transition: all .3s ease;
+  
+  }
+  
+  #site-header.hide{
+    top: -95px;
+  }
+  
